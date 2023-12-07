@@ -1,0 +1,12 @@
+model_name: "BaselineModel"
+model_kwargs:
+  use_cuda: True
+train_kwargs:
+  dummy: 0
+app_kwargs:
+  run_id: ""
+  use_cuda: False
+data_dir: "data"
+model_dir: "models"
+predict_dir: "predictions"
+
