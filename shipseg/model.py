@@ -65,7 +65,7 @@ def save_model(model: nn.Module, pth: str):
     torch.save(model.state_dict(), pth)
 
 def load_model(pth: str) -> nn.Module:
-    model = lraspp_mobilenet_v3_large(num_classes=1).float()
+    model = lraspp_mobilenet_v3_large(num_classes=1, weights_backbone=None).float()
     model.load_state_dict(torch.load(pth))
     model.eval()
     return model
