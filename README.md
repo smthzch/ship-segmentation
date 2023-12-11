@@ -1,7 +1,5 @@
 # Ship Segmentation
 
-This is a template repo for starting new ML projects
-
 - [Setup](#setup)
 - [App](#app)
 - [Pipelines](#pipelines)
@@ -20,19 +18,17 @@ See [https://pytorch.org/get-started/locally/](https://pytorch.org/get-started/l
 
 ### Docker
 
-A Dockerfile is provided. 
+A Dockerfile is provided to run the shiny app.
 
 ```shell
 # data dir must be present before building image
-docker build -t container-name .
+docker build -t ship-seg .
 docker run \
     -d \
-    --name container-name \
+    --name ship-seg \
     --gpus all \
-    -p 8501:8501 \
-    -p 5000:5000 \
-    container-name
-docker exec -it container-name bash # will log you into shell, skip to `App` or `Pipelines` section for commands to run apps
+    -p 8000:8000 \
+    ship-seg
 ```
 
 ### Local
@@ -54,7 +50,7 @@ pip install -e .
 To view predictions and evaluation on the test set images call:
 
 ```shell
-streamlit run app/app.py config/baseline.yaml
+shiny run app.py
 ```
 
 and navigate to the reported url.
@@ -78,35 +74,3 @@ Run info will be logged to the local MLFlow directory.
 ```shell
 python script/train.py config/baseline.yaml
 ```
-
-**Predicting**
-
-To generate predictions for the test set - these are used in the app.
-Be sure to update the `[app_kwargs][run_id]` to the model you want to predict with.
-A pretrained model is already specified.
-
-```shell
-python script/predict.py config/baseline.yaml
-```
-
-## Library
-
-The library, housed in the `library/` directory contains all code for the model and dataset handling.
-
-### Models
-
-New models should be put in `library/model.py` and match the `BaseModel` class signature.
-A config will also need to be developed for the new model.
-See `config/baseline.yaml` for an example model config.
-
-## EDA
-
-My entrypoint for working on this project is found in the `notebooks` directory. 
-Specifically `notebooks/eda.py` is where I took my first look at the data.
-
-The main items of note:
-
-
-## Next Steps
-
-
