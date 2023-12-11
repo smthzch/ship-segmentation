@@ -1,0 +1,16 @@
+artifact_uri: file:///home/smith/Projects/datasci/ship_segment/mlruns/0/b17976f9a9ab4d5a958dbb289c75e508/artifacts
+deleted_time: 1702315822955
+end_time: 1702310906637
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: b17976f9a9ab4d5a958dbb289c75e508
+run_name: silent-bird-407
+run_uuid: b17976f9a9ab4d5a958dbb289c75e508
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702310901561
+status: 3
+tags: []
+user_id: smith

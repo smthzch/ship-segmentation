@@ -1,9 +1,9 @@
 from setuptools import setup
 
 setup(
-    name="library",
+    name="shipseg",
     version="0.0.1",
-    packages=["library"],
+    packages=["shipseg"],
     install_requires=[],
 )
 

@@ -1,0 +1,16 @@
+artifact_uri: file:///home/smith/Projects/datasci/ship_segment/mlruns/0/0ad8ca8250dd4d50854384d7fee3aa52/artifacts
+deleted_time: 1702316076823
+end_time: 1702316032702
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 0ad8ca8250dd4d50854384d7fee3aa52
+run_name: melodic-sponge-2
+run_uuid: 0ad8ca8250dd4d50854384d7fee3aa52
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702315963066
+status: 3
+tags: []
+user_id: smith

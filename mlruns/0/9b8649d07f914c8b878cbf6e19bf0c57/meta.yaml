@@ -1,0 +1,15 @@
+artifact_uri: file:///home/smith/Projects/datasci/ship_segment/mlruns/0/9b8649d07f914c8b878cbf6e19bf0c57/artifacts
+end_time: 1702313174574
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9b8649d07f914c8b878cbf6e19bf0c57
+run_name: tasteful-asp-868
+run_uuid: 9b8649d07f914c8b878cbf6e19bf0c57
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702311939337
+status: 3
+tags: []
+user_id: smith

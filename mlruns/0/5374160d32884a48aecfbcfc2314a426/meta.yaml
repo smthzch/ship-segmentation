@@ -1,0 +1,16 @@
+artifact_uri: file:///home/smith/Projects/datasci/ship_segment/mlruns/0/5374160d32884a48aecfbcfc2314a426/artifacts
+deleted_time: 1702315827280
+end_time: 1702310689728
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 5374160d32884a48aecfbcfc2314a426
+run_name: glamorous-moth-534
+run_uuid: 5374160d32884a48aecfbcfc2314a426
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702310689718
+status: 3
+tags: []
+user_id: smith

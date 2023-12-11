@@ -1,4 +1,4 @@
-# ML Project Templare
+# Ship Segmentation
 
 This is a template repo for starting new ML projects
 
@@ -13,9 +13,6 @@ This is a template repo for starting new ML projects
 
 First clone the repo and download the data. 
 
-```shell
-bash script/get_data.sh
-```
 
 *GPU Requirements* if you want to use GPU you must make sure you have your CUDA environment set up properly and you update the `requirements-cuda.txt` to point to the correct index based on your cuda driver.
 I have cuda 11.8 so I point to that index.
@@ -26,7 +23,7 @@ See [https://pytorch.org/get-started/locally/](https://pytorch.org/get-started/l
 A Dockerfile is provided. 
 
 ```shell
-# bash script/get_data.sh # data dir must be present before building image
+# data dir must be present before building image
 docker build -t container-name .
 docker run \
     -d \
@@ -50,8 +47,6 @@ pip install -r requirements.txt
 pip install -r requirements-cuda.txt
 # install model library (airid)
 pip install -e .
-# download data and unzip
-bash script/get_data.sh
 ```
 
 ## App

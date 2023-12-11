@@ -1,0 +1,16 @@
+artifact_uri: file:///home/smith/Projects/datasci/ship_segment/mlruns/0/9335d1c0305e486188f021a01a872df9/artifacts
+deleted_time: 1702315822956
+end_time: 1702310716764
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 9335d1c0305e486188f021a01a872df9
+run_name: fun-bug-732
+run_uuid: 9335d1c0305e486188f021a01a872df9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702310711280
+status: 3
+tags: []
+user_id: smith

@@ -1,0 +1,16 @@
+artifact_uri: file:///home/smith/Projects/datasci/ship_segment/mlruns/0/179bf642d1874dbc94682bae10a86452/artifacts
+deleted_time: 1702315798435
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 179bf642d1874dbc94682bae10a86452
+run_name: spiffy-stag-287
+run_uuid: 179bf642d1874dbc94682bae10a86452
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702313245490
+status: 1
+tags: []
+user_id: smith

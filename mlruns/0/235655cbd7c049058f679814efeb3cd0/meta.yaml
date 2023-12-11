@@ -1,0 +1,16 @@
+artifact_uri: file:///home/smith/Projects/datasci/ship_segment/mlruns/0/235655cbd7c049058f679814efeb3cd0/artifacts
+deleted_time: 1702315863869
+end_time: 1702309919192
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 235655cbd7c049058f679814efeb3cd0
+run_name: dazzling-sow-837
+run_uuid: 235655cbd7c049058f679814efeb3cd0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702308729575
+status: 3
+tags: []
+user_id: smith

@@ -1,12 +1,10 @@
-model_name: "BaselineModel"
-model_kwargs:
-  use_cuda: True
 train_kwargs:
-  dummy: 0
+  use_cuda: True
+  epochs: 4
+  lr: 0.01
 app_kwargs:
-  run_id: ""
+  run_id: "d3f038964e924b908bf0688e412a53f5"
   use_cuda: False
 data_dir: "data"
 model_dir: "models"
 predict_dir: "predictions"
-
