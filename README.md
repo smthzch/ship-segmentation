@@ -41,7 +41,7 @@ mkvirtualenv shipseg
 # install reqs
 pip install -r requirements.txt
 pip install -r requirements-cuda.txt
-# install model library (airid)
+# install model library (shipseg)
 pip install -e .
 ```
 
