@@ -37,7 +37,7 @@ Local was run on `python==3.10`.`
 
 ```shell
 # make env
-mkvirtualenv airid
+mkvirtualenv shipseg
 # install reqs
 pip install -r requirements.txt
 pip install -r requirements-cuda.txt
